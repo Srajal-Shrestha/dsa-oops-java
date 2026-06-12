@@ -1,0 +1,98 @@
+# Java String & Input-Output Notes
+
+## 1. Input / Output in Java
+
+### Output (Printing)
+
+```java
+System.out.println("Hello World");   // prints with new line
+System.out.print("Hello");           // prints without new line
+System.out.printf("Value: %d", 10);  // formatted output
+```
+
+### Input (Using Scanner)
+
+```java
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+
+int num = sc.nextInt();     // integer input
+String str = sc.next();     // single word
+String line = sc.nextLine();// full line
+```
+
+---
+
+## 2. charAt() Method
+
+### Description:
+
+Returns character at a specific index.
+
+### Syntax:
+
+```java
+string.charAt(index);
+```
+
+### Example:
+
+```java
+String name = "Java";
+char ch = name.charAt(1); // 'a'
+```
+
+---
+
+## 3. replace() Method
+
+### Description:
+
+Replaces characters or substrings.
+
+### Syntax:
+
+```java
+string.replace(oldChar, newChar);
+string.replace("old", "new");
+```
+
+### Example:
+
+```java
+String str = "hello";
+String newStr = str.replace('l', 'p'); // "heppo"
+```
+
+---
+
+## 4. substring() Method
+
+### Description:
+
+Extracts part of a string.
+
+### Syntax:
+
+```java
+string.substring(startIndex);
+string.substring(startIndex, endIndex);
+```
+
+### Example:
+
+```java
+String str = "Programming";
+
+String sub1 = str.substring(3);     // "gramming"
+String sub2 = str.substring(0, 6);  // "Progra"
+```
+
+---
+
+## Notes:
+
+* Index starts from 0
+* String is immutable (original string does not change)
+MORE TO ADD
