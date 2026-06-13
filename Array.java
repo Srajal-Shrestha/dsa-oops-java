@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Array {
     public static void main(String[] args){
         int physics = 87;
@@ -5,10 +6,15 @@ public class Array {
         int chem = 96;
 
         int[] marks = new int[3];
-        marks[0] = 87;
+        marks[0] = 98;
         marks[1] = 97;
         marks[2] = 96;
-        System.out.println(marks[2]);
+        //Length
+        /// System.out.println(marks.length);
+        //sort
+        /// System.out.println(marks[0]);
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
         
     }
 }
