@@ -90,6 +90,34 @@ String sub2 = str.substring(0, 6);  // "Progra"
 ```
 
 ---
+##5. Array concept, length of array, Sort of array in java 
+int maths = 87;
+int science = 76;
+int english = 67;
+
+int[] marks = new int[3]
+int marks[0] = 87;
+int marks[1] = 76;
+int marks[2] = 67;
+
+System.out.println("Marks: " + marks[2]);
+
+output : Marks: 67
+
+###length of array
+System.out.println(marks.length);
+
+output = 3
+
+### sort in java 
+must import file
+import java.util.Arrays;
+
+Arrays.sout(marks);
+System.out.println(marks[0]);
+
+output = 67
+
 
 ## Notes:
 
