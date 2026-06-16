@@ -102,21 +102,36 @@ int marks[2] = 67;
 
 System.out.println("Marks: " + marks[2]);
 
-output : Marks: 67
+--------------------------------------------output : Marks: 67
 
-###length of array
+###i. length of array
 System.out.println(marks.length);
+-------------------------------------------------output = 3
 
-output = 3
-
-### sort in java 
+###ii. sort in java 
 must import file
 import java.util.Arrays;
 
 Arrays.sout(marks);
 System.out.println(marks[0]);
 
-output = 67
+--------------------------------------------------------output = 67
+
+##6. Printing from 2 dimentional Array 
+int[] marks = {78, 98, 95};
+int[][] finalmarks = {{98, 95, 78}, {95, 78, 98}};
+System.out.println(finalmarks[1][2]);
+---------------------------------------------------------------output will comes 98!!!
+
+##7. Casting
+int price = 100;
+int finalprice = price + 18.99;
+---------------------------------------------(--Shows up an error)
+so we need to do casting 
+int finalprice = price + (int)18.99;
+-----------------------------------------------------------so answer comes out 118.
+
+
 
 
 ## Notes:
