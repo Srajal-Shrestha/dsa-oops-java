@@ -118,7 +118,7 @@ System.out.println(marks[0]);
 --------------------------------------------------------output = 67
 
 ##6. Printing from 2 dimentional Array 
-int[] marks = {78, 98, 95};
+int[] marks = {78, 98, 95};----------------------------------------------------//one dimentional just for understand
 int[][] finalmarks = {{98, 95, 78}, {95, 78, 98}};
 System.out.println(finalmarks[1][2]);
 ---------------------------------------------------------------output will comes 98!!!
