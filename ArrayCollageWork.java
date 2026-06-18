@@ -15,5 +15,6 @@ public class ArrayCollageWork {
         for (int i = 0; i < num.length; i++) {
             System.out.println(num[i]);
         }
+        sc.close();
     }
 }
