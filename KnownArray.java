@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class KnownArray {
     public static void main(String[] args) {
         int[] marks = {97, 76, 89};
