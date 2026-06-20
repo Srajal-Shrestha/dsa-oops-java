@@ -130,6 +130,23 @@ int finalprice = price + 18.99;
 so we need to do casting 
 int finalprice = price + (int)18.99;
 -----------------------------------------------------------so answer comes out 118.
+##8. print max & min number from options ,concept of random ,casting 
+### MAX
+System.out.println(Math.max(6, 7));
+-------------------------------------------output: 7
+###MIN value
+System.out.println(Math.min(6, 7));
+--------------------------------------output: 6
+### random
+it will print random number between 0 and 1 in long;
+System.out.println(Math.random());
+------------------------------------------------output will come differently each time you run but between 0 & 1
+now if we want integer number not long than we need to do implicit casting 
+System.out.println((int) (Math.random() * n));
+------------------------------------------------this will give us and integer output but this time multiply by n number but still the output will be different
+--------------------------------------------------due to use of random .This is generally used in finding probability.
+
+
 
 
 
