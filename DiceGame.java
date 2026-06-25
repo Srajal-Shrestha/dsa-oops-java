@@ -17,11 +17,11 @@ public class DiceGame {
         System.out.println("Computer rolled: " + computerRoll);
 
         if (userRoll > computerRoll) {
-            System.out.println("🎉 You win!");
+            System.out.println(" You win!");
         } else if (userRoll < computerRoll) {
-            System.out.println("😢 Computer wins!");
+            System.out.println(" Computer wins!");
         } else {
-            System.out.println("😐 It's a draw!");
+            System.out.println(" It's a draw!");
         }
 
         input.close();
