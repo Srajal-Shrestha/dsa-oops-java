@@ -6,7 +6,7 @@ public class ArithmaticSwitch {
         //Taking 2 inputs from users;
         System.out.print("Enter the first integer number: ");
         double num1 = sc.nextDouble();
-        System.out.println("Enter second integer number: ");
+        System.out.print("Enter second integer number: ");
         double num2 = sc.nextDouble();
 
         while (true) {
